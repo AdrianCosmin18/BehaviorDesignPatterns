@@ -1,8 +1,8 @@
-package org.example.chainOfResponsability;
+package org.example.chainOfResponsability.exercise;
 
-import org.example.chainOfResponsability.handlers.CEO;
-import org.example.chainOfResponsability.handlers.Director;
-import org.example.chainOfResponsability.handlers.VP;
+import org.example.chainOfResponsability.exercise.handlers.CEO;
+import org.example.chainOfResponsability.exercise.handlers.Director;
+import org.example.chainOfResponsability.exercise.handlers.VP;
 
 public class Client {
     public static void main(String[] args) {

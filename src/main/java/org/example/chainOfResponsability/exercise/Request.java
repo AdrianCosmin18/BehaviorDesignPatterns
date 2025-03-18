@@ -1,4 +1,4 @@
-package org.example.chainOfResponsability;
+package org.example.chainOfResponsability.exercise;
 
 public class Request {
     private final RequestType requestType;

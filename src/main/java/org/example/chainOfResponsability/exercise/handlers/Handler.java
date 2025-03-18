@@ -1,6 +1,6 @@
-package org.example.chainOfResponsability.handlers;
+package org.example.chainOfResponsability.exercise.handlers;
 
-import org.example.chainOfResponsability.Request;
+import org.example.chainOfResponsability.exercise.Request;
 
 public abstract class Handler {
     protected Handler successor;

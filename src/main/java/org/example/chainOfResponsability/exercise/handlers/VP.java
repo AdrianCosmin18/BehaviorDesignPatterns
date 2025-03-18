@@ -1,7 +1,7 @@
-package org.example.chainOfResponsability.handlers;
+package org.example.chainOfResponsability.exercise.handlers;
 
-import org.example.chainOfResponsability.Request;
-import org.example.chainOfResponsability.RequestType;
+import org.example.chainOfResponsability.exercise.Request;
+import org.example.chainOfResponsability.exercise.RequestType;
 
 public class VP extends Handler {
     @Override
