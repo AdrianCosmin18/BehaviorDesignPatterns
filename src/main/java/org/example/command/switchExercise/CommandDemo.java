@@ -1,5 +1,9 @@
 package org.example.command.switchExercise;
 
+import org.example.command.switchExercise.command.AllLightsCommand;
+import org.example.command.switchExercise.command.Command;
+import org.example.command.switchExercise.command.ToggleCommand;
+
 import java.util.ArrayList;
 import java.util.List;
 

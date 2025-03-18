@@ -1,4 +1,6 @@
-package org.example.command.switchExercise;
+package org.example.command.switchExercise.command;
+
+import org.example.command.switchExercise.Light;
 
 //concrete command
 public class OnCommand implements Command {
