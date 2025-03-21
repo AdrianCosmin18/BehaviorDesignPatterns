@@ -1,11 +1,19 @@
-package org.example.memento.demoSerializable;
+package org.example.memento.exercise;
 
-import java.io.Serializable;
-
-public class Employee implements Serializable {
+// originator
+public class Employee {
     private String name;
     private String address;
     private String phone;
+
+    public EmployeeMemento save() {
+        return new EmployeeMemento(name, phone);
+    }
+
+    public void revert(EmployeeMemento emp) {
+        this.name = emp.getName();
+        this.phone = emp.getPhone();
+    }
 
 
     public String getName() {
@@ -30,5 +38,10 @@ public class Employee implements Serializable {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+
+    public String toString() {
+        return name + " : " + phone;
     }
 }

@@ -1,5 +1,7 @@
 package org.example.memento.demoSerializable;
 
+import org.example.memento.exercise.Employee;
+
 import java.io.*;
 
 public class DemoSerializable {
