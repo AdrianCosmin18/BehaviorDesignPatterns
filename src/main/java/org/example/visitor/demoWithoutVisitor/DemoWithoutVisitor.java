@@ -1,4 +1,4 @@
-package org.example.visitor;
+package org.example.visitor.demoWithoutVisitor;
 
 public class DemoWithoutVisitor {
     public static void main(String[] args) {

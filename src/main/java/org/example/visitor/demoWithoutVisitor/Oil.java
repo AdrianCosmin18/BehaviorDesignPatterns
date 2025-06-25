@@ -1,4 +1,4 @@
-package org.example.visitor;
+package org.example.visitor.demoWithoutVisitor;
 
 public class Oil implements AtvPart {
     @Override
